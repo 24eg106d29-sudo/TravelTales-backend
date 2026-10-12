@@ -1,6 +1,6 @@
-# Travel Planner — Backend
+# TravelTales — Backend
 
-Java 21, Spring Boot, Spring Data JPA, and MySQL REST API. Frontend source and deployment instructions are in [TravelPlanner-frontend](https://github.com/ishithaabburi2006/TravelPlanner-frontend).
+Java 21, Spring Boot, Spring Data JPA, and MySQL REST API for TravelTales. Frontend source and deployment instructions are in [TravelTales-frontend](https://github.com/24eg106d29-sudo/TravelTales-frontend).
 
 ## Requirements
 
