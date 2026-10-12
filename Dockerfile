@@ -6,7 +6,7 @@ RUN mvn -B -DskipTests package
 
 FROM eclipse-temurin:21-jre
 WORKDIR /app
-COPY --from=build /workspace/target/travel-planner-api-1.0.0.jar app.jar
+COPY --from=build /workspace/target/travel-tales-api-1.0.0.jar app.jar
 ENV SERVER_PORT=8080
 EXPOSE 8080
 ENTRYPOINT ["java", "-XX:MaxRAMPercentage=75.0", "-jar", "/app/app.jar"]
